@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class AttributeManager : MonoBehaviour
 {
@@ -14,8 +14,49 @@ public class AttributeManager : MonoBehaviour
 
 
     public Text attributeDisplay;
+    public int attributes = 0;
 
-    private int attributes = 0;
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "MAGIC")
+        {
+            attributes |= MAGIC;
+        }
+        else if (other.gameObject.tag == "INTELLIGENCE")
+        {
+            attributes |= INTELLIGENCE;
+        }
+        else if (other.gameObject.tag == "CHARISMA")
+        {
+            attributes |= CHARISMA;
+        }
+        else if (other.gameObject.tag == "FLY")
+        {
+            attributes |= FLY;
+        }
+        else if (other.gameObject.tag == "INVISIBLE")
+        {
+            attributes |= INVISIBLE;
+        }
+        else if (other.gameObject.tag == "ANTIMAGIC")
+        {
+            attributes &= ~MAGIC;
+        }
+        else if (other.gameObject.tag == "REMOVE")
+        {
+            attributes &= ~ (INTELLIGENCE | MAGIC);
+        }
+        else if (other.gameObject.tag == "ADD")
+        {
+            attributes |= (INTELLIGENCE | MAGIC | CHARISMA);
+        }
+        else if (other.gameObject.tag == "RESET")
+        {
+            attributes = 0;
+        }
+
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,47 +70,5 @@ public class AttributeManager : MonoBehaviour
         attributeDisplay.transform.position = screenPoint + new Vector3(0,-50,0);
         attributeDisplay.text = Convert.ToString(attributes, 2).PadLeft(8, '0');
     }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.tag=="MAGIC")
-        {
-            attributes |= MAGIC;
-        }
-        if (other.tag=="INTELLIGENCE")
-        {
-            attributes |= INTELLIGENCE;
-        }
-        if (other.tag=="CHARISMA")
-        {
-            attributes |= CHARISMA;
-        }
-        if (other.tag=="FLY")
-        {
-            attributes |= FLY;
-        }
-        if (other.tag=="INVISIBLE")
-        {
-            attributes |= INVISIBLE;
-        }
-        if (other.tag=="ANTIMAGIC")
-        {
-            attributes &= ~MAGIC;
-        }
-
-        if (other.tag=="3MAGIC")
-        {
-            attributes |= (INTELLIGENCE | CHARISMA | MAGIC);
-        }
-
-        if (other.tag=="3ANTIMAGIC")
-        {
-            attributes &= ~(INTELLIGENCE | CHARISMA);
-        }
-
-        if (other.tag=="RESET")
-        {
-            attributes = 0;
-        }
-    }
+       
 }
