@@ -52,5 +52,24 @@ public class AttributeManager : MonoBehaviour
         {
             attributes |= INVISIBLE;
         }
+        if (other.tag=="ANTIMAGIC")
+        {
+            attributes &= ~MAGIC;
+        }
+
+        if (other.tag=="3MAGIC")
+        {
+            attributes |= (INTELLIGENCE | CHARISMA | MAGIC);
+        }
+
+        if (other.tag=="3ANTIMAGIC")
+        {
+            attributes &= ~(INTELLIGENCE | CHARISMA);
+        }
+
+        if (other.tag=="RESET")
+        {
+            attributes = 0;
+        }
     }
 }
