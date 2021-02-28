@@ -11,6 +11,9 @@ public class AttributeManager : MonoBehaviour
     static public int CHARISMA = 4;
     static public int FLY = 2;
     static public int INVISIBLE = 1;
+    static public int BLUEKEY = 32;
+    static public int REDKEY = 64;
+    static public int GOLDKEY = 128;
 
 
     public Text attributeDisplay;
@@ -18,7 +21,7 @@ public class AttributeManager : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "MAGIC")
+        if (other.gameObject.tag == "MAGIC")
         {
             attributes |= MAGIC;
         }
@@ -54,21 +57,33 @@ public class AttributeManager : MonoBehaviour
         {
             attributes = 0;
         }
-
+        else if (other.gameObject.tag == "BLUEKEY")
+        {
+            attributes |= BLUEKEY;
+            Destroy(other.gameObject, 0.1f);
+        }
+        else if (other.gameObject.tag == "REDKEY")
+        {
+            attributes |= REDKEY;
+            Destroy(other.gameObject, 0.1f);
+        }
+        else if (other.gameObject.tag == "GOLDKEY")
+        {
+            attributes |= BLUEKEY | REDKEY;
+            Destroy(other.gameObject, 0.1f);
+        }
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
     void Update()
     {
         Vector3 screenPoint = Camera.main.WorldToScreenPoint(this.transform.position);
-        attributeDisplay.transform.position = screenPoint + new Vector3(0,-50,0);
+        attributeDisplay.transform.position = screenPoint + new Vector3(0, -50, 0);
         attributeDisplay.text = Convert.ToString(attributes, 2).PadLeft(8, '0');
     }
-       
 }

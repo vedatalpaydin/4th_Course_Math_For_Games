@@ -13,6 +13,16 @@ TagManager:
   - 3ANTIMAGIC
   - 3MAGIC
   - RESET
+  - REMOVE
+  - ADD
+  - MAGIC_DOOR
+  - BLUEKEY
+  - REDKEY
+  - GOLDKEY
+  - BLUEDOOR
+  - REDDOOR
+  - PURLEDOOR
+  - PURPLEDOOR
   layers:
   - Default
   - TransparentFX

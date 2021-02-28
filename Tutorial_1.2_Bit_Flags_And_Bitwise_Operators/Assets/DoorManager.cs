@@ -5,11 +5,11 @@ using UnityEngine;
 
 public class DoorManager : MonoBehaviour
 {
-    private int doorType = AttributeManager.MAGIC;
+    private int doorType = 0;
 
     private void OnCollisionEnter(Collision other)
     {
-        if ((other.gameObject.GetComponent<AttributeManager>().attributes & doorType) != 0)
+        if ((other.gameObject.GetComponent<AttributeManager>().attributes & doorType) == doorType)
         {
             GetComponent<BoxCollider>().isTrigger = true;
         }
@@ -18,12 +18,15 @@ public class DoorManager : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         GetComponent<BoxCollider>().isTrigger = false;
+        other.gameObject.GetComponent<AttributeManager>().attributes &= ~doorType;
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (gameObject.tag == "BLUEDOOR") doorType = AttributeManager.BLUEKEY;
+        if (gameObject.tag == "REDDOOR") doorType = AttributeManager.REDKEY;
+        if (gameObject.tag == "PURPLEDOOR") doorType = (AttributeManager.BLUEKEY | AttributeManager.REDKEY);
     }
 
     // Update is called once per frame
