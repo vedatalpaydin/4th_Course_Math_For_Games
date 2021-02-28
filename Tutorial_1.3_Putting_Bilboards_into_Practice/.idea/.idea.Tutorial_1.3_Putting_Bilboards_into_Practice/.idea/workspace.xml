@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a162b613-b254-4b2c-99e5-54288ee2aa1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Bit_Toggling_and_Unity_Specifics/.idea/.idea.Tutorial_1.3_Bit_Toggling_and_Unity_Specifics/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tutorial_1.3_Bit_Toggling_and_Unity_Specifics/.idea/.idea.Tutorial_1.3_Bit_Toggling_and_Unity_Specifics/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Bit_Toggling_and_Unity_Specifics/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Tutorial_1.3_Bit_Toggling_and_Unity_Specifics/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/SimpleTree.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/SimpleTree.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CreateBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CreateBoard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourceGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourceGame.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +22,15 @@
     </changedPaths>
   </component>
   <component name="ProjectId" id="1p7a8Qmdwp1xyEOLRL8lcQISmuK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -66,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614536422804</updated>
-      <workItem from="1614536427010" duration="1169000" />
+      <workItem from="1614536427010" duration="3797000" />
     </task>
     <servers />
   </component>
@@ -87,6 +87,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
