@@ -23,23 +23,23 @@ public class AttributeManager : MonoBehaviour
     {
         if (other.gameObject.tag == "MAGIC")
         {
-            attributes |= MAGIC;
+            attributes ^= MAGIC;
         }
         else if (other.gameObject.tag == "INTELLIGENCE")
         {
-            attributes |= INTELLIGENCE;
+            attributes ^= INTELLIGENCE;
         }
         else if (other.gameObject.tag == "CHARISMA")
         {
-            attributes |= CHARISMA;
+            attributes ^= CHARISMA;
         }
         else if (other.gameObject.tag == "FLY")
         {
-            attributes |= FLY;
+            attributes ^= FLY;
         }
         else if (other.gameObject.tag == "INVISIBLE")
         {
-            attributes |= INVISIBLE;
+            attributes ^= INVISIBLE;
         }
         else if (other.gameObject.tag == "ANTIMAGIC")
         {
@@ -51,7 +51,7 @@ public class AttributeManager : MonoBehaviour
         }
         else if (other.gameObject.tag == "ADD")
         {
-            attributes |= (INTELLIGENCE | MAGIC | CHARISMA);
+            attributes ^= (INTELLIGENCE | MAGIC | CHARISMA);
         }
         else if (other.gameObject.tag == "RESET")
         {
@@ -59,17 +59,17 @@ public class AttributeManager : MonoBehaviour
         }
         else if (other.gameObject.tag == "BLUEKEY")
         {
-            attributes |= BLUEKEY;
+            attributes ^= BLUEKEY;
             Destroy(other.gameObject, 0.1f);
         }
         else if (other.gameObject.tag == "REDKEY")
         {
-            attributes |= REDKEY;
+            attributes ^= REDKEY;
             Destroy(other.gameObject, 0.1f);
         }
         else if (other.gameObject.tag == "GOLDKEY")
         {
-            attributes |= BLUEKEY | REDKEY;
+            attributes ^= BLUEKEY | REDKEY;
             Destroy(other.gameObject, 0.1f);
         }
     }
