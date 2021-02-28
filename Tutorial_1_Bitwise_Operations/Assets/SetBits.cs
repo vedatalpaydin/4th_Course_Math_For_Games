@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class SetBits : MonoBehaviour
 {
-    private int bSequence = 8+1+2;
+    private int bSequence = 35;
     void Start()
     {
         Debug.Log(Convert.ToString(bSequence,2));
