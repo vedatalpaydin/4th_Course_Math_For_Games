@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="35c466aa-8d2a-4c41-8ae0-f7d341a18295" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Tutorial_1.4_Putting_Bilboards_into_Practice/.idea/.idea.Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Tutorial_2_Location/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Tutorial_2_Location/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Tutorial_2_Location/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Tutorial_2_Location/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Tutorial_2_Location/.idea/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Tutorial_2_Location/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DrawLines.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DrawLines.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/.idea.Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/.idea.Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/.idea.Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/.idea.Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/.idea.Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/.idea.Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/.idea.Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/.idea.Tutorial_1.3_Putting_Bilboards_into_Practice/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/CreateBoard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/CreateBoard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Materials/clay.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Materials/clay.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Materials/desert.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Materials/desert.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Materials/frame.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Materials/frame.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Materials/grains.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Materials/grains.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Materials/grass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Materials/grass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Materials/rock.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Materials/rock.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Materials/roof.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Materials/roof.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Materials/sea.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Materials/sea.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Materials/walls.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Materials/walls.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Materials/woods.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Materials/woods.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/ResourceGame.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/ResourceGame.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Textures/clay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Textures/clay.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Textures/desert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Textures/desert.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Textures/grains.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Textures/grains.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Textures/grass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Textures/grass.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Textures/rock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Textures/rock.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Textures/sea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Textures/sea.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Textures/woods.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Textures/woods.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Tiles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Tiles/BigHouse.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Tiles/BigHouse.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Tiles/BigHouse.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Tiles/BigHouse.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Tiles/Desert.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Tiles/Desert.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Tiles/Dirt.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Tiles/Dirt.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Tiles/Grain.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Tiles/Grain.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Tiles/Pasture.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Tiles/Pasture.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Tiles/Rock.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Tiles/Rock.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Tiles/SimpleTree.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Tiles/SimpleTree.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Tiles/Water.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Tiles/Water.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Tiles/Woods.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Assets/Tiles/Woods.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Packages/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/Packages/packages-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/ProjectSettings/AudioManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/ProjectSettings/ClusterInputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/ProjectSettings/DynamicsManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/ProjectSettings/EditorSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/ProjectSettings/GraphicsSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/ProjectSettings/InputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/ProjectSettings/NavMeshAreas.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/ProjectSettings/Physics2DSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/ProjectSettings/PresetManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/ProjectSettings/ProjectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/ProjectSettings/ProjectVersion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/ProjectSettings/QualitySettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/ProjectSettings/TagManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/ProjectSettings/TimeManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/ProjectSettings/VFXManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutorial_1.3_Putting_Bilboards_into_Practice/ProjectSettings/XRSettings.asset" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/DrawLines.cs" />
+      <option value="$PROJECT_DIR$/Assets/Coords.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1p8jpPRkawDGq5Bnjkc0sdMHw5b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35c466aa-8d2a-4c41-8ae0-f7d341a18295" name="Default Changelist" comment="" />
+      <created>1614571798541</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614571798541</updated>
+      <workItem from="1614571808658" duration="1708000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
