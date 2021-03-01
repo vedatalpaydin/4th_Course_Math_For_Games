@@ -33,15 +33,13 @@ public class Coords
 
    static public void DrawLine(Coords startPosition,Coords endPosition, float width, Color color)
    {
-      GameObject line = new GameObject("Point_" + startPosition.ToString());
+      GameObject line = new GameObject("Point_" + startPosition.ToString()+ "_"+endPosition.ToString());
       LineRenderer lineRenderer = line.AddComponent<LineRenderer>();
       lineRenderer.material = new Material(Shader.Find("Unlit/Color"));
       lineRenderer.material.color = color;
-      lineRenderer.positionCount = 4;
-      lineRenderer.SetPosition(0,new Vector3(startPosition.x-width,startPosition.y-width,startPosition.z));
-      lineRenderer.SetPosition(1,new Vector3(startPosition.x+width,startPosition.y+width,startPosition.z));
-      lineRenderer.SetPosition(2,new Vector3(endPosition.x-width,endPosition.y-width,endPosition.z));
-      lineRenderer.SetPosition(3,new Vector3(endPosition.x+width,endPosition.y+width,endPosition.z));
+      lineRenderer.positionCount = 2;
+      lineRenderer.SetPosition(0,new Vector3(startPosition.x,startPosition.y,startPosition.z));
+      lineRenderer.SetPosition(1,new Vector3(endPosition.x,endPosition.y,endPosition.z));
       lineRenderer.startWidth = width;
       lineRenderer.endWidth = width;
    }
