@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35c466aa-8d2a-4c41-8ae0-f7d341a18295" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/DrawGraph.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tutorial_2_Location/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tutorial_2_Location/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tutorial_2_Location/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tutorial_2_Location/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Coords.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Coords.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DrawLines.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DrawLines.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,10 +22,14 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/DrawGraph.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Coords.cs" />
       <option value="$PROJECT_DIR$/Assets/DrawLines.cs" />
+      <option value="$PROJECT_DIR$/Assets/DrawGraph.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1p8jpPRkawDGq5Bnjkc0sdMHw5b" />
@@ -73,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614571798541</updated>
-      <workItem from="1614571808658" duration="3798000" />
+      <workItem from="1614571808658" duration="5420000" />
     </task>
     <servers />
   </component>
