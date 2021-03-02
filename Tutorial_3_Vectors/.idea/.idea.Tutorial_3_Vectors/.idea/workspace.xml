@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67d48c97-4bc7-4875-bc67-0ae7255f6d6f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Camera.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Camera.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DriveControl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectMngr.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UIMngr.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tutorial_3_Vectors/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tutorial_3_Vectors/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tutorial_3_Vectors/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tutorial_3_Vectors/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Drive.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Drive.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HolisticMath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HolisticMath.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Starter.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Starter.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,14 +19,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HolisticMath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DriveControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectMngr.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Coords.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIMngr.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Tutorial_2.1_Practice_Location_2D_Points_on_a_Cartesian_Plane/Assets/Scripts/Drive.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/HolisticMath.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Drive.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DriveControl.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Camera.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectMngr.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UIMngr.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1p9RFTjLV7abjx9sCKvagT5ng4W" />
@@ -71,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614593216029</updated>
       <workItem from="1614593220011" duration="112000" />
-      <workItem from="1614593383224" duration="10953000" />
+      <workItem from="1614593383224" duration="13606000" />
     </task>
     <servers />
   </component>
