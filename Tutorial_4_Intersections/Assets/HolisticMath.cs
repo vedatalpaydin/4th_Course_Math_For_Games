@@ -23,6 +23,17 @@ public class HolisticMath
         return squareRoot;
     }
 
+    static public Coords Lerp(Coords A, Coords B, float t)
+    {
+        t = Mathf.Clamp(t, 0, 1);
+        Coords v = new Coords(B.x - A.x, B.y - A.y, B.z - A.z);
+        float xt = A.x + v.x * t;
+        float yt = A.y + v.y * t;
+        float zt = A.z + v.z * t;
+
+        return new Coords(xt, yt, zt);
+    }
+
     static public float Square(float value)
     {
         return value * value;
@@ -68,7 +79,7 @@ public class HolisticMath
         float angle = Angle(vector, facing);
         float worldAngle = Angle(vector, new Coords(0, 1, 0));
         bool clockwise = Cross(vector, facing).z < 0;
-        vector = Rotate(vector, angle+worldAngle, clockwise);
+        vector = Rotate(vector, angle + worldAngle, clockwise);
         float xVal = position.x + vector.x;
         float yVal = position.y + vector.y;
         float zVal = position.z + vector.z;
