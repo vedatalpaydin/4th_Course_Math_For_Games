@@ -2,7 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67d48c97-4bc7-4875-bc67-0ae7255f6d6f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Starter.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Starter.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/Assets/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/Assets/Materials/LargeTank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/Assets/Materials/LargeTank.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/Assets/Materials/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/Assets/Materials/Materials/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/Assets/Materials/Materials/Materials/TexturesCom_RiverStones_2x2_512_albedo.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/Assets/Materials/Materials/Materials/TexturesCom_RiverStones_2x2_512_albedo.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/Assets/Materials/Materials/TexturesCom_RiverStones_2x2_512_albedo.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/Assets/Materials/Materials/TexturesCom_RiverStones_2x2_512_albedo.tif.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/Assets/PlayerControlledTank.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/Assets/PlayerControlledTank.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/Assets/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/Assets/Scenes/SampleScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/Assets/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/Assets/Scripts/Coords.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/Assets/Scripts/Coords.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/Assets/Scripts/Drive.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/Assets/Scripts/Drive.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/Assets/Scripts/HolisticMath.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/Assets/Scripts/HolisticMath.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/Packages/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/Packages/packages-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/ProjectSettings/AudioManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/ProjectSettings/ClusterInputManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/ProjectSettings/PresetManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/ProjectSettings/TimeManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/ProjectSettings/VFXManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tutorial_3.1_Recreate_Rotate_and_Translate/ProjectSettings/XRSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tutorial_3_Vectors/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tutorial_3_Vectors/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614593216029</updated>
       <workItem from="1614593220011" duration="112000" />
-      <workItem from="1614593383224" duration="13606000" />
+      <workItem from="1614593383224" duration="14244000" />
     </task>
     <servers />
   </component>
