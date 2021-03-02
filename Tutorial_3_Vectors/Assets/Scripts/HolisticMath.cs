@@ -39,10 +39,23 @@ public class HolisticMath
         return Mathf.Acos(dotDivide); //radians. for degree *180/Mathf.PI;
     }
 
-    static public Coords Rotate(Coords vector, float angle) // radians...
+    static public Coords Rotate(Coords vector, float angle,bool clockwise) // radians...
     {
-        float xVal = vector.x * Mathf.Cos(angle) - vector.y * Mathf.Sign(angle);
+        if (clockwise)
+        {
+            angle = 2 * Mathf.PI - angle;
+        }
+        float xVal = vector.x * Mathf.Cos(angle) - vector.y * Mathf.Sin(angle);
         float yVal = vector.x * Mathf.Sin(angle) + vector.y * Mathf.Cos(angle);
         return new Coords(xVal, yVal,0);
-    } 
+    }
+
+    static public Coords Cross(Coords vector1, Coords vector2)
+    {
+        float xMult = vector1.y * vector2.z - vector1.z * vector2.y;
+        float yMult = vector1.z * vector2.x - vector1.x * vector2.z;
+        float zMult = vector1.x * vector2.y - vector1.y * vector2.x;
+        Coords crossProd = new Coords(xMult, yMult, zMult);
+        return crossProd;
+    }
 }
