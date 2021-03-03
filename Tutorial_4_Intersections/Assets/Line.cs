@@ -30,19 +30,31 @@ public class Line
         A = _A;
         B = _A + _v;
         v = _v;
+        type = LINETYPE.SEGMENT;
     }
 
     public float IntersectsAt(Line l)
     {
+        if (HolisticMath.Dot(Coords.Perb(l.v), v) == 0)
+        {
+            return float.NaN;
+        }
+
         Coords c = l.A - A;
         float t = HolisticMath.Dot(Coords.Perb(l.v), c) / HolisticMath.Dot(Coords.Perb(l.v), v);
-        return t; 
+        if ((t < 0 || t > 1) && type == LINETYPE.SEGMENT)
+        {
+            return float.NaN;
+        }
+
+        return t;
     }
 
     public void Draw(float width, Color col)
     {
-        Coords.DrawLine(A,B,width,col);
+        Coords.DrawLine(A, B, width, col);
     }
+
     public Coords Lerp(float t)
     {
         if (type == LINETYPE.SEGMENT)
