@@ -25,6 +25,24 @@ public class Line
         v = new Coords(B.x - A.x, B.y - A.y, B.z - A.z);
     }
 
+    public Line(Coords _A, Coords _v)
+    {
+        A = _A;
+        B = _A + _v;
+        v = _v;
+    }
+
+    public float IntersectsAt(Line l)
+    {
+        Coords c = l.A - A;
+        float t = HolisticMath.Dot(Coords.Perb(l.v), c) / HolisticMath.Dot(Coords.Perb(l.v), v);
+        return t; 
+    }
+
+    public void Draw(float width, Color col)
+    {
+        Coords.DrawLine(A,B,width,col);
+    }
     public Coords Lerp(float t)
     {
         if (type == LINETYPE.SEGMENT)
