@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class CreateLines : MonoBehaviour
 {
-    private Line L1;
-
-    private Line L2;
+    Line L1;
+    Line L2;
 
     // Start is called before the first frame update
     void Start()
@@ -18,15 +17,13 @@ public class CreateLines : MonoBehaviour
 
         float intersectT = L1.IntersectsAt(L2);
         float intersectS = L2.IntersectsAt(L1);
+
         if (intersectT == intersectT && intersectS == intersectS)
         {
             GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
             sphere.transform.position = L1.Lerp(intersectT).ToVector();
         }
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
+        Debug.Log("T:" + intersectT + " S:" + intersectS);
     }
 }

@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Plane
 {
-    private Coords A;
-    private Coords B;
-    private Coords C;
-    private Coords v;
-    private Coords u;
+    public Coords A;
+    Coords B;
+    Coords C;
+    public Coords v;
+    public Coords u;
 
     public Plane(Coords _A, Coords _B, Coords _C)
     {
@@ -34,4 +34,6 @@ public class Plane
 
         return new Coords(xst, yst, zst);
     }
+   
+
 }
